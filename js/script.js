@@ -16,3 +16,9 @@ paragraphs.each(function(index, element) {
 
   $(element).append(button);
 });
+
+var buttonElem = $('button');
+
+buttonElem.click(function() {
+	alert($(this).attr('data-tmp'));
+});
