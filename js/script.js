@@ -6,7 +6,7 @@ span.each(function(index, element) {
   }; */
 
   // To samo co wyżej
-  $('span:even').css('color', 'red');
+  $(element).css('color', 'red');
 });
 
 var paragraphs = $('p');
